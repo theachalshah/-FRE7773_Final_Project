@@ -7,7 +7,7 @@ The [Google Cloud Platform][1] contains all files for deployment.
 
 [1]:https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Google%20Cloud%20Platform "Google Cloud Platform"
 
-# Executing Project on local system
+## Executing Project on local system
 
 The [Metaflow and Flask APP][2] contains all files for deployment. 
 
@@ -18,11 +18,13 @@ Make sure all packages in requirements.txt are installed to the correct version
 
 pip install -r requirements.txt
 
-Put the engineered and raw data under the ./data folder
+The data is taken directly from yahoo finance(yfinance api)
 
-Run my_flow.py under the right directory to generate the metadata folder
+Run metaflow.py to execute metaflow 
 
-python3 my_flow.py run
-After running my_flow.py, run app.py to generate a web application that allows users to input stock id and time id to make a prediction on volatility
+python3 metaflow.py run
+After running metaflow.py, run app.py to generate a web application that allows users to input price and technical indicators  to make a prediction for next week S&P 500 index. 
+
 python3 app.py run
-Run model_selection.ipynb to get the overview of the pipeline of the project
+
+Click on predict to get BUY, SELL, NO OPPORTUNITY Singal
