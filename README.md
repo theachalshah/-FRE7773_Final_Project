@@ -7,9 +7,17 @@ The [Google Cloud Platform][1] contains all files for deployment.
 
 [1]:https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Google%20Cloud%20Platform "Google Cloud Platform"
 
-Executing Project
+# Executing Project on local system
+
+The [Metaflow and Flask APP][2] contains all files for deployment. 
+
+[2]:[(https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Metaflow%20and%20Flask%20APP] "Metaflow and Flask APP"
+
+
 Make sure all packages in requirements.txt are installed to the correct version
+
 pip install -r requirements.txt
+
 Put the engineered and raw data under the ./data folder
 
 Run my_flow.py under the right directory to generate the metadata folder
