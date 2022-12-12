@@ -1,0 +1,11 @@
+metaflow
+datetime
+comet_ml
+scikit-learn
+yfinance
+pandas
+numpy
+talib
+pykalman
+fracdiff
+flask

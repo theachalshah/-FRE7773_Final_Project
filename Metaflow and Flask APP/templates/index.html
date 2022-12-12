@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Signals</title>
+</head>
+<body>
+
+    <h1>Weekly Signals</h1>
+    {% if signal %}
+        <p>{{ signal }}</p>
+    {% endif %}    
+    <form method="post" action="/predict">
+        <label>Open</label><br>
+        <input type=number step=any name="Open"><br><br>
+
+        <label>High</label><br>
+        <input type=number step=any name="High"><br><br>
+
+        <label>Low</label><br>
+        <input type=number step=any name="Low"><br><br>
+
+        <label>Adjacent Close</label><br>
+        <input type=number step=any name="Adj Close"><br><br>
+
+        <label>Volume</label><br>
+        <input type=number step=any name="Volume"><br><br>
+
+        <label>Average True Range</label><br>
+        <input type=number step=any name="atr"><br><br>
+
+        <label>Residual Strength Index</label><br>
+        <input type=number step=any name="rsi"><br><br>
+
+        <label>On-Balance Volume</label><br>
+        <input type=number step=any name="obv"><br><br>
+
+        <label>Weighted Close Price</label><br>
+        <input type=number step=any name="wcp"><br><br>
+
+        <label>Trend</label><br>
+        <input type=number step=any name="trend"><br><br>
+
+        <label>Kalman Filter</label><br>
+        <input type=number step=any name="kalf"><br><br>
+
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+
+</body>
+</html>
