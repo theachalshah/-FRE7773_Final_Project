@@ -8,6 +8,7 @@ The [Google Cloud Platform][1] contains all files for deployment.
 [1]:https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Google%20Cloud%20Platform "Google Cloud Platform"
 
 The [Presentation][4] explains the project theory and execution.
+
 [4]:https://github.com/theachalshah/-FRE7773_Final_Project/blob/main/Machine%20Learning%20Project.pdf "Presentation"
 
 The [file][3] contains data preprocessing, model training, testing.
