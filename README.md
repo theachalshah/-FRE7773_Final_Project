@@ -7,6 +7,9 @@ The [Google Cloud Platform][1] contains all files for deployment.
 
 [1]:https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Google%20Cloud%20Platform "Google Cloud Platform"
 
+The [file][3] contains data preprocessing, model training, testing
+
+[3]:https://github.com/theachalshah/-FRE7773_Final_Project/blob/main/Final_Weekly_MLProject.ipynb "file"
 ## Executing Project on local system
 
 The [Metaflow and Flask APP][2] contains all files for deployment. 
