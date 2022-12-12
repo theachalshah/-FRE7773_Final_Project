@@ -17,17 +17,22 @@ The [Metaflow and Flask APP][2] contains all files for deployment.
 Make sure all packages in requirements.txt are installed to the correct version
 
 ```
-
 pip install -r requirements.txt
 ```
 
 The data is taken directly from yahoo finance(yfinance api)
 
+```
 Run metaflow.py to execute metaflow 
-
+```
+```
 python3 metaflow.py run
+```
+
 After running metaflow.py, run app.py to generate a web application that allows users to input price and technical indicators  to make a prediction for next week S&P 500 index. 
 
+```
 python3 app.py run
+```
 
 Click on predict to get BUY, SELL, NO OPPORTUNITY Singal
