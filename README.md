@@ -15,9 +15,9 @@ The [Metaflow and Flask APP][2] contains all files for deployment.
 
 
 Make sure all packages in requirements.txt are installed to the correct version
-
+'''
 pip install -r requirements.txt
-
+'''
 The data is taken directly from yahoo finance(yfinance api)
 
 Run metaflow.py to execute metaflow 
