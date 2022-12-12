@@ -11,7 +11,7 @@ The [Google Cloud Platform][1] contains all files for deployment.
 
 The [Metaflow and Flask APP][2] contains all files for deployment. 
 
-[2]:[https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Metaflow%20and%20Flask%20APP] "Metaflow and Flask APPP"
+[2]:https://github.com/theachalshah/-FRE7773_Final_Project/tree/main/Metaflow%20and%20Flask%20APP "Metaflow and Flask APPP"
 
 
 Make sure all packages in requirements.txt are installed to the correct version
